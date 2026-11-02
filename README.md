@@ -21,7 +21,7 @@ Cloudflare Pages（GitHub連携）の設定:
 - Project name: `muryo-shimekiri-radar`
 - `SITE_URL`: 実際の公開先が候補と異なる場合のみ設定
 
-候補URL `https://muryo-shimekiri-radar.pages.dev` は公開確認前です。サイトを作成後、実URLを `data/site.json` に反映して `urlVerified` を更新してください。
+公開URL: https://muryo-shimekiri-radar.pages.dev/ （2026年11月2日、公開画面と検索・詳細への遷移を確認）。実URLは `data/site.json` で管理します。GitHub連携の再デプロイ確認結果は `docs/QA.md` を参照。
 
 ## 正本
 

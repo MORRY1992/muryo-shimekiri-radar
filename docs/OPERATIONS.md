@@ -1,7 +1,7 @@
 # 継続運用
 
 ## 正本と公開
-正本はMORRY1992/muryo-shimekiri-radarのmain。静的出力はdist。Cloudflare PagesのGitHub連携は本人認証後に設定する。現在は未接続であり、自動公開成功とは扱わない。
+正本はMORRY1992/muryo-shimekiri-radarのmain。静的出力はdist。2026年11月2日に本人がCloudflare Pagesへ公開。実URLは https://muryo-shimekiri-radar.pages.dev/ 。公開画面、検索、詳細遷移、JSONのHTTP 200とno-cacheを確認。GitHub更新後の再デプロイ結果はQA.mdで別途記録する。
 
 ## 更新する担当の手順
 1. GitHub mainを取得して最新SHAを保持。既存の作業を上書きしない。
@@ -32,4 +32,4 @@ Adsterra既存Publisherアカウントへ公開URL確定後に申請。Social Ba
 Cloudflare Pagesの過去成功デプロイにロールバック、または原因コミットをgit revertし検証後pushする。データを過去へ戻してもブラウザー側の期限判定・48時間制限が有効。取得失敗時に過去の確認日時を現在に置換しない。
 
 ## 本人認証
-Cloudflareは現在ログイン画面。既存アカウント認証が必要。新規有料契約・ドメイン購入・秘密鍵やパスワードのチャット掲載は不要。Search Consoleもサイト公開後に固有の所有権確認を行う。他サイトのタグは使用しない。
+Cloudflareの初回公開は本人操作で完了。運用時に再認証が必要になった場合だけ本人へ依頼する。新規有料契約・ドメイン購入・秘密鍵やパスワードのチャット掲載は不要。Search Consoleもサイト公開後に固有の所有権確認を行う。他サイトのタグは使用しない。
