@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import path from 'node:path';import assert from 'node:assert/strict';
+const all=await fs.readdir('dist',{recursive:true});const html=all.filter(x=>x.endsWith('.html'));let links=0;
+for(const file of html){const s=await fs.readFile(path.join('dist',file),'utf8');assert.equal((s.match(/<h1[ >]/g)||[]).length,1,`${file}: h1`);assert.ok(s.includes('rel="canonical"'),`${file}: canonical`);assert.ok(s.includes('property="og:image"'),`${file}: OGP`);for(const m of s.matchAll(/(?:href|src)="(\/[^"#]*)/g)){let url=m[1].split('?')[0];if(url.endsWith('/'))url+='index.html';await fs.access(path.join('dist',url));links++;}}
+await fs.access('dist/og.png');await fs.access('dist/sitemap.xml');await fs.access('dist/robots.txt');console.log(JSON.stringify({htmlPages:html.length,internalLinksChecked:links,missing:0}));

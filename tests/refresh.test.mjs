@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {reconcile} from '../scripts/refresh.mjs';import fs from 'node:fs/promises';
+const data=JSON.parse(await fs.readFile(new URL('../data/campaigns.json',import.meta.url),'utf8'));
+test('expired campaign preserved with all redemption data, repeat run idempotent',()=>{const once=reconcile(data,[],'2027-01-01T00:00:00+09:00');assert.equal(once.length,data.length);assert.equal(once.find(c=>c.id==='lawson-app-coffee-202610').redemptionDeadline,'2026-11-30T23:59:00+09:00');assert.equal(once.filter(c=>c.verificationStatus==='ended').length,10);assert.deepEqual(reconcile(once,[],'2027-01-01T00:00:00+09:00'),once);});
+test('unknown observation aborts entire batch',()=>assert.throws(()=>reconcile(data,[{id:'unrecognized',at:'2026-11-02T12:00:00Z',ok:true}]),/invalid observation/));

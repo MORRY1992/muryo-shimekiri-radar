@@ -1,0 +1,504 @@
+[
+  {
+    "startAt": "2026-10-27T00:00:00+09:00",
+    "startDate": null,
+    "endAt": "2026-11-23T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": "2026-11-30T23:59:00+09:00",
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "lawson-app-coffee-202610",
+    "title": "ローソンアプリ新規ポイントカード連携でコーヒーS無料券",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "benefit": "マチカフェのホットまたはアイスコーヒーS 1杯の無料券。",
+    "awardType": "all",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "商品購入不要。アプリ通信費・来店費は自己負担。",
+    "method": "ローソンIDでログインしたアプリ内から、Pontaカードまたはdポイントカードを初めて連携。MYBOXに届く券を店舗で提示。",
+    "notes": [
+      "Webサイトからの連携は対象外。",
+      "持ち帰り限定。一部店舗は取扱いなし。スマホレジ不可、同一商品に他券との併用不可。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/lab/app/art/1533678_8411.html",
+    "channel": "アプリ",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/lab/app/art/1533678_8411.html"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": null,
+    "endAt": "2026-11-16T13:00:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "house-spice-disney-202611",
+    "title": "ハウス食品グループ スパイス体験・パークチケットプレゼント",
+    "organizer": "ハウス食品グループ本社",
+    "category": "旅行・鉄道・観光",
+    "benefit": "抽選で計50組100名。A・B賞はランチパーティーとパークチケット、C賞はペアチケットと食事券。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "応募に商品購入は不要。通信費、当選後の交通費・宿泊費は自己負担。",
+    "method": "クイズに回答し、A・B・C賞から1コースを選んで公式フォームに必要事項を入力。会員登録なしの応募口あり。",
+    "notes": [
+      "A・B賞の食事はアレルギー対応なし。子ども向けメニューなし。小学生以下は大人同伴。",
+      "C賞はMyDisneyアカウントとアプリによる来園予約が必要。チケットの具体的な利用期限は当選者への案内を確認。"
+    ],
+    "officialUrl": "https://house-cp.jp/tdr-lunchparty2610/",
+    "channel": "Web",
+    "sourceUrls": [
+      "https://house-cp.jp/tdr-lunchparty2610/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "1人1回。日本国内居住者。A・B賞は2027年1月11日の指定イベントに参加できる方。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-10-01",
+    "endAt": "2026-11-30T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "choices-sample-202610",
+    "title": "ChoiceS 犬猫フードの無料サンプル",
+    "organizer": "アース・ペット",
+    "category": "日用品・生活用品",
+    "benefit": "犬用65g・猫用35gのフードサンプルを最大3種類。各種類1つまで。",
+    "awardType": "first",
+    "purchaseRequired": false,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "サンプルは無償送付。通信費は利用者負担。",
+    "method": "公式フォームで希望サンプル、配送先、ペット情報、アンケートを入力。",
+    "notes": [
+      "配送はポスト投函、目安2～3週間。",
+      "配布予定数に達すると期間内でも終了する場合があります。"
+    ],
+    "officialUrl": "https://1stchoice.jp/cp/sample_present/",
+    "channel": "Web",
+    "sourceUrls": [
+      "https://1stchoice.jp/cp/sample_present/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "日本国内居住者、1住所1回。配布予定数に達すると早期終了の場合あり。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": null,
+    "endAt": "2026-11-04T15:00:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": true,
+    "verificationStatus": "verified",
+    "id": "kewpie-quiz-202609",
+    "title": "おしえて！キユーピー クイズキャンペーン",
+    "organizer": "キユーピー",
+    "category": "日用品・生活用品",
+    "benefit": "キユーピーのランチョンマット2枚セットを抽選で30名に。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "商品購入不要。通信費は利用者負担。",
+    "method": "1日1回のクイズ3問に全問正解すると、応募フォームから応募できる。非会員用の入口あり。",
+    "notes": [
+      "賞品は12月上旬発送予定。",
+      "キユーピー社員・関係者は対象外。"
+    ],
+    "officialUrl": "https://www.kewpie.co.jp/cp/202609-quiz/",
+    "channel": "Web",
+    "sourceUrls": [
+      "https://www.kewpie.co.jp/cp/202609-quiz/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "日本国内居住・国内配送。クイズは1日1回、期間内に繰り返し応募可能。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-10-01",
+    "endAt": "2026-11-30T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "jema-oven-quiz-202610",
+    "title": "オーブンレンジの日 クイズプレゼント",
+    "organizer": "日本電機工業会（JEMA）",
+    "category": "家電・デジタル",
+    "benefit": "オーブンレンジを抽選で合計5名に。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "商品購入不要。通信費は利用者負担。送料・設置費の別記は確認できず。",
+    "method": "公式ページのクイズ5問に回答し、応募フォームへ回答と必要事項を入力。",
+    "notes": [
+      "応募フォームでは希望メーカーを選択。色は選べない。",
+      "配送地域や設置費など、掲載規約に明示のない点は応募先で確認。"
+    ],
+    "officialUrl": "https://ovenrangenohi-cp.jp/",
+    "sourceUrls": [
+      "https://www.jema-net.or.jp/about/news/260929.html",
+      "https://ovenrangenohi-cp.jp/",
+      "https://form.qubo.jp/ovenrenjinohi2026"
+    ],
+    "channel": "Web",
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "1人1回。複数回応募は無効。フォームは国内住所を入力する形式。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-11-02",
+    "endAt": null,
+    "endDate": "2026-11-30",
+    "purchaseDeadline": null,
+    "redemptionDeadline": "2026-12-15T23:59:00+09:00",
+    "daily": true,
+    "verificationStatus": "verified",
+    "id": "ponta-black-everyday-202611",
+    "title": "Ponta BLACK EVERYDAY 無料ガチャ",
+    "organizer": "ロイヤリティ マーケティング（Ponta）",
+    "category": "アプリ会員向け特典",
+    "benefit": "無料ガチャでPontaギフトコードやクーポンなど。豪華賞品は現物ではなく相当するPontaポイントの抽選。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "ガチャ挑戦は無料。通信費自己負担。景品の割引クーポンは利用に購入・交換条件がある。",
+    "method": "公式ページの各ガチャに挑戦し、当たったギフトコードをPontaアプリで入力。豪華賞品抽選券付きコードも入力が必要。",
+    "notes": [
+      "ガチャの終了日の時刻は公開本文に明記なし。",
+      "ギフトコード入力期限は12月15日23:59。クーポン個別の利用期限は券面を確認。",
+      "景品上限到達で終了の場合あり。別企画の金融口座開設等は、本無料ガチャ参加の必須条件として扱わない。"
+    ],
+    "officialUrl": "https://www.ponta.jp/c/campaign/blackeveryday_2611/",
+    "channel": "Web・アプリ",
+    "sourceUrls": [
+      "https://www.ponta.jp/c/campaign/blackeveryday_2611/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "各ガチャは1日3回または4回。挑戦権は毎日0時リセット。Ponta会員・アプリ等が必要。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-11-01",
+    "endAt": null,
+    "endDate": "2026-11-30",
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "yuskin-teare-202611",
+    "title": "ユースキン 手荒れ救おうプロジェクト 第3弾",
+    "organizer": "ユースキン製薬",
+    "category": "日用品・生活用品",
+    "benefit": "ユースキン4gサンプル2個。9～11月の全3回を合計して抽選1万名。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "商品購入不要。通信費は自己負担。",
+    "method": "公式キャンペーンのWebアンケートに回答して応募。",
+    "notes": [
+      "1万名は第3弾だけの人数ではなく全3回の合計。",
+      "公開要項では第3弾の締切時刻は明記なし。12月中旬から発送予定。"
+    ],
+    "officialUrl": "https://teare.yuskin.co.jp/",
+    "sourceUrls": [
+      "https://teare.yuskin.co.jp/",
+      "https://teare.yuskin.co.jp/common/pdf/enter.pdf"
+    ],
+    "channel": "Web",
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "日本国内在住。各回1人1回。未成年者は親権者同意が必要。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-10-27",
+    "endAt": null,
+    "endDate": "2026-11-02",
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "lawson-rooibos-receipt-202610",
+    "title": "対象ホット飲料購入でルイボスティー無料引換券",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "benefit": "対象飲料1本購入につき、ホットリラックスルイボスティー500mlの引換券1枚。",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "購入必須。対象はホット玄米茶500ml・税込159円、またはホットジャスミンティー500ml・税込149円（ローソン標準価格）。",
+    "redemptionStartDate": "2026-11-03",
+    "method": "対象商品を購入してレシートに印字される引換券を受け取り、11月3日以降に対象商品と引換。",
+    "notes": [
+      "購入不要の無料プレゼントではない。",
+      "各期限の時刻は公式本文に明記なし。店舗の営業時間に注意。",
+      "持ち帰り限定。店内飲食は税率差額が生じる。スマホレジ対象外、一部店舗は取扱いなし。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/recommend/sale/detail/1533771_3677.html",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/recommend/sale/detail/1533771_3677.html",
+      "https://lawson-faq.lawson.co.jp/faq/show/2169?site_domain=default"
+    ],
+    "channel": "店舗",
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報・応募要項を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "購入・発券は11月2日まで。引換は11月3～16日。ローソンストア100・Lミニマートは対象外。",
+    "purchaseDate": "2026-11-02",
+    "redemptionDate": "2026-11-16"
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-11-02",
+    "endAt": null,
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "pending",
+    "id": "sanrio-kitty-wallpaper-202611",
+    "title": "Sanrio＋ ハローキティ11月カレンダー壁紙",
+    "organizer": "サンリオ",
+    "category": "キャラクター・エンタメ",
+    "benefit": "Sanrio＋会員向けハローキティの11月カレンダー壁紙。",
+    "awardType": "all",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "Sanrio＋新規会員登録は無料。通信費は利用者負担。",
+    "method": "公式告知の配布リンクからSanrio＋にログイン。",
+    "notes": [
+      "公式告知の存在と無料会員登録・ログイン条件は確認。ログイン後の配布画面は未確認。",
+      "配布終了日は公開告知に記載なし。本文の11月8日は別イベントの終了日であり、壁紙の期限として採用しない。"
+    ],
+    "officialUrl": "https://www.sanrio.co.jp/news/sanrioplus/kt-wallpaper-cp-20261102/",
+    "channel": "Web",
+    "sourceUrls": [
+      "https://www.sanrio.co.jp/news/sanrioplus/kt-wallpaper-cp-20261102/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報を確認。重要条件が未確認のため保留。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "Sanrio＋会員。配布先はログインが必要。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": "2026-10-20T10:00:00+09:00",
+    "startDate": null,
+    "endAt": "2026-11-20T09:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": "2026-11-20T09:59:00+09:00",
+    "daily": false,
+    "verificationStatus": "pending",
+    "id": "kewpie-mission-tartar-202610",
+    "title": "Hi! kewpie タルタルソースの日ミッション",
+    "organizer": "キユーピー",
+    "category": "食品・飲料",
+    "benefit": "キユーピー商品詰め合わせの抽選。落選時も参加賞3キユーピーポイント。",
+    "awardType": "lottery",
+    "purchaseRequired": null,
+    "registrationRequired": true,
+    "snsRequired": null,
+    "region": [
+      "全国"
+    ],
+    "costs": "無料会員登録が必要。ミッション詳細がログイン内のため、その他の必要費用・購入条件は未確認。",
+    "method": "kewpie IDに登録し3つのミッションを完了して抽選。当選後は同じ締切までに受取フォームへ入力。",
+    "notes": [
+      "公開要項と締切は確認。ミッションページがログインへ移動し、3項目の内容を取得できないため再確認待ち。",
+      "購入不要やSNS不要と断定しない。"
+    ],
+    "officialUrl": "https://www.kewpie.co.jp/cp/202610-hikewpie-mission/",
+    "channel": "Web",
+    "sourceUrls": [
+      "https://www.kewpie.co.jp/cp/202610-hikewpie-mission/"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式公開情報を確認。重要条件が未確認のため保留。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "1人1回。賞品受取りは日本国内居住者。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  },
+  {
+    "startAt": "2026-10-28T08:00:00+09:00",
+    "startDate": null,
+    "endAt": "2026-11-01T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": "2026-11-04T23:59:00+09:00",
+    "daily": true,
+    "verificationStatus": "ended",
+    "id": "lawson-snack-x-202610",
+    "title": "終了：ナチュラルローソン菓子 無料券X抽選",
+    "organizer": "ローソン",
+    "category": "食品・飲料",
+    "benefit": "対象菓子1個の持ち帰り無料引換券。1日1万人、5日間で計5万人の抽選。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": true,
+    "region": [
+      "全国"
+    ],
+    "costs": "購入不要。Xアカウントと通信環境が必要。",
+    "method": "ローソン公式Xをフォローし対象投稿をリポストする企画。応募は終了。",
+    "notes": [
+      "11月2日時点で新規応募は終了。既に当選した券の引換期限だけが残っている。",
+      "ローソンストア100・Lミニマート対象外。一部店舗取扱いなし。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/lab/tsuushin/art/1532083_4659.html",
+    "channel": "X",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/lab/tsuushin/art/1532083_4659.html"
+    ],
+    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-02T15:40:56+09:00",
+        "note": "公式期限から応募終了を確認。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "応募期間中は1日1回。公開Xアカウント・DM受信等の条件あり。",
+    "purchaseDate": null,
+    "redemptionDate": null
+  }
+]
