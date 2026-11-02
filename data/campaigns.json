@@ -326,7 +326,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "ended",
     "id": "lawson-rooibos-receipt-202610",
     "title": "対象ホット飲料購入でルイボスティー無料引換券",
     "organizer": "ローソン",
@@ -360,6 +360,11 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-02T23:07:08.863Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "購入・発券は11月2日まで。引換は11月3～16日。ローソンストア100・Lミニマートは対象外。",
