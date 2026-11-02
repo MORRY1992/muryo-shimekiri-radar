@@ -34,5 +34,9 @@
 - 本人提供のCloudflareデプロイ成功画面と一致する https://muryo-shimekiri-radar.pages.dev/ にてトップを表示。通常一覧7件。
 - 公開画面でローソン検索1件、「条件を見る」リンクから詳細へ遷移し応募期限11/23 23:59・引換期限11/30 23:59・会員登録要・購入不要を確認。
 - /data/campaigns.json はHTTP 200、Content-Type application/json、Cache-Control no-cache。
-- 公開確認をdata/site.jsonと運営情報へ反映。これからGitHub更新による再デプロイを確認する段階。
+- 公開確認コミット9fb79cccf8c724ed24988756b42d7ead8ba8fa4aをmainへ保存。17:42 JSTにGitHub Actions validateとCloudflare Pagesがsuccess。本番/about/に2026-11-02、本番/data/site.jsonにurlVerified:true・launchDateを読み戻し、自動再デプロイの反映を確認。
+- 公開UIで再確認待ち3件、終了1件へ切り替わり、通常7件と分離されることを確認。
+- 既存定期タスクの担当Rの公開状態を修正。保存結果で全文一致と既存スケジュール・有効状態・他担当の原文不変を確認。担当R追加後の定期運転はまだ未検証。
+- 端末からのHTTP HEADは200とno-cacheを取得。一方PythonでのGET検証は403を返し未完了。この環境での取得制約として記録し、公開停止とは判定しない。公開URLのブラウザー表示・データ反映は成功。
+- 公開画面の記録: docs/qa/live-20261102.jpg。
 - 掲載情報の再確認は本確認とは別。lastVerifiedAtは初回公式確認時刻から変更していない。

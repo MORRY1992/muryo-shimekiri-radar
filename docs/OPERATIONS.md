@@ -1,7 +1,7 @@
 # 継続運用
 
 ## 正本と公開
-正本はMORRY1992/muryo-shimekiri-radarのmain。静的出力はdist。2026年11月2日に本人がCloudflare Pagesへ公開。実URLは https://muryo-shimekiri-radar.pages.dev/ 。公開画面、検索、詳細遷移、JSONのHTTP 200とno-cacheを確認。GitHub更新後の再デプロイ結果はQA.mdで別途記録する。
+正本はMORRY1992/muryo-shimekiri-radarのmain。静的出力はdist。2026年11月2日に本人がCloudflare Pagesへ公開。実URLは https://muryo-shimekiri-radar.pages.dev/ 。公開画面、検索、詳細遷移、JSONのHTTP 200とno-cacheを確認。公開記録コミット9fb79cccf8c724ed24988756b42d7ead8ba8fa4aのGitHub ActionsとCloudflare Pagesはともにsuccess。本番/about/と/data/site.jsonにも反映され、GitHub mainからの自動再デプロイを確認済み。
 
 ## 更新する担当の手順
 1. GitHub mainを取得して最新SHAを保持。既存の作業を上書きしない。
