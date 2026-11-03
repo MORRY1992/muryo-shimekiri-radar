@@ -1,6 +1,7 @@
 import {selectCampaigns,statusOf,STATUS,dayJst,esc,deadlineDay,validateCampaigns} from './core.mjs';
 import {card,calendar} from './render.mjs';
 import {icon} from './visuals.mjs';
+import {replaceIfChanged,activeBoardTab,freshnessText} from './dom.mjs';
 const $=s=>document.querySelector(s);let items=[],saved=[],previousVisit=null,view='all',sort='deadline',selectedDay='';
 try{const raw=JSON.parse(localStorage.getItem('radar.saved')||'[]');saved=Array.isArray(raw)?raw.filter(x=>typeof x==='string'):[];previousVisit=localStorage.getItem('radar.visit');}catch{}
 const toast=message=>{const el=$('#toast');if(!el)return;el.textContent=message;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.textContent='',3500);};
@@ -8,7 +9,6 @@ function saveStorage(){try{localStorage.setItem('radar.saved',JSON.stringify(sav
 const presets={today:{deadline:'today',status:'all'},tomorrow:{deadline:'tomorrow',status:'all'},free:{purchase:'no'},'no-register':{registration:'no'},first:{redeem:true},lottery:{award:'lottery'},daily:{daily:true},week:{deadline:'week'},saved:{saved:true,status:'all'},pending:{status:'pending'},ended:{status:'ended'},new:{},day:{status:'all'}};
 function filters(){const f=$('#filter-form')?Object.fromEntries(new FormData($('#filter-form'))):{};return {...f,...presets[view],sort,savedIds:saved,...(selectedDay?{exactDay:selectedDay}:{})};}
 const viewTitles={today:'今日締切のキャンペーン',tomorrow:'明日締切のキャンペーン',free:'購入不要で応募できる','no-register':'会員登録不要',first:'無料引換・先着特典',lottery:'抽選キャンペーン',daily:'毎日応募できる企画',week:'今週終了予定',saved:'保存した案件',pending:'再確認待ち',ended:'終了した案件',new:'新着キャンペーン'};
-function replaceIfChanged(el,html){if(!el||el.innerHTML===html)return;const active=el.contains(document.activeElement)?document.activeElement:null;const saveId=active?.dataset.save,day=active?.dataset.day;el.innerHTML=html;if(saveId)el.querySelector(`[data-save="${saveId}"]`)?.focus({preventScroll:true});else if(day)el.querySelector(`[data-day="${day}"]`)?.focus({preventScroll:true});}
 function filterChips(){
  const form=$('#filter-form');if(!form)return;
  const chips=[];for(const el of form.elements){if(!el.name||!el.value)continue;const label=el.tagName==='SELECT'?el.options[el.selectedIndex].textContent:el.name==='q'?`検索：${el.value}`:`${el.value}まで`;chips.push(label);}
@@ -30,7 +30,7 @@ function render(){const now=new Date();
   const state=f.status||'verified',note=$('#view-note');
   const message=view==='ended'||state==='ended'?'応募は終了しています。引換期限が残る場合は詳細をご確認ください。':view==='saved'?'このブラウザーに保存した案件です。通知や応募完了の記録ではありません。終了・再確認待ちも含みます。':view==='pending'||state==='pending'?'条件・期限の不足、取得失敗、確認から48時間経過などにより、現在利用できると断定していません。受付状況は公式でご確認ください。':['today','tomorrow','day'].includes(view)||state==='all'?'再確認待ちも含みます。「公式条件確認済み」は在庫や受付の継続を保証しません。応募前に公式ページをご確認ください。':'';
   note.hidden=!message;note.textContent=message;
-  document.querySelectorAll('[data-view]').forEach(b=>{if(!b.closest('.empty'))b.setAttribute('aria-pressed',String(b.dataset.view===view));});
+  document.querySelectorAll('[data-view]').forEach(b=>{if(b.closest('.empty'))return;const selected=b.closest('.board-tabs')?activeBoardTab(view,f):(view==='all'?(state==='verified'?'all':['pending','ended'].includes(state)?state:null):view);b.setAttribute('aria-pressed',String(b.dataset.view===selected));});
   const today=dayJst(now),tomorrow=dayJst(+now+86400000),eligibleDay=day=>items.filter(c=>deadlineDay(c)===day&&!['ended','upcoming'].includes(statusOf(c,now))).length;
   for(const [key,value] of Object.entries({today:eligibleDay(today),tomorrow:eligibleDay(tomorrow),free:selectCampaigns(items,{purchase:'no'},now).length,verified:selectCampaigns(items,{},now).length}))$(`[data-count="${key}"]`).textContent=value;
   $('[data-state-count="pending"]').textContent=pendingCount;
@@ -40,7 +40,7 @@ function render(){const now=new Date();
   $('#today-weekday').textContent=now.toLocaleDateString('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',weekday:'long'})+' / JST';
   replaceIfChanged($('#deadline-calendar'),calendar(items,now,selectedDay));
   const changed=previousVisit&&Number.isFinite(Date.parse(previousVisit))?items.filter(c=>c.history.some(h=>Date.parse(h.at)>Date.parse(previousVisit))).length:null;
-  $('#freshness').textContent=changed===null?'最終確認から48時間以内の情報を表示':`前回訪問から追加・変更 ${changed}件（全記録）`;
+  $('#freshness').textContent=freshnessText(changed);
   filterChips();
  }
  const detail=$('[data-detail]');if(detail){const c=items.find(x=>x.id===detail.dataset.detail);if(c){const status=statusOf(c,now);$('#detail-status').textContent=`${STATUS[status]}｜${status==='verified'?'確認時点の公式条件です。先着終了や変更がないか、応募前に公式サイトをご確認ください。':status==='ended'?'応募期限を過ぎています。引換期限は別にご確認ください。':status==='upcoming'?'記録上の応募開始日時より前です。開始日時と最新の条件を公式でご確認ください。':c.reviewReason||'条件・期限の不足、締切時刻未公表、または確認情報の更新待ちです。受付状況は公式でご確認ください。'}`;}}
