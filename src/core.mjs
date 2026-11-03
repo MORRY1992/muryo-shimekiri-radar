@@ -19,6 +19,7 @@ export function selectCampaigns(items, f={}, now=new Date()) {
   if(f.q&&!`${c.title} ${c.organizer} ${c.benefit} ${c.category}`.toLocaleLowerCase().includes(f.q.trim().toLocaleLowerCase()))return false;
   if(f.deadline==='today'&&d!==today||f.deadline==='tomorrow'&&d!==tomorrow||f.deadline==='week'&&(!d||d<today||d>weekEnd))return false;
   if(f.endDate&&(!d||d>f.endDate))return false;
+  if(f.exactDay&&d!==f.exactDay)return false;
   if(!matchesBool(c.purchaseRequired,f.purchase)||!matchesBool(c.registrationRequired,f.registration))return false;
   if(f.award&&c.awardType!==f.award||f.category&&c.category!==f.category||f.channel&&c.channel!==f.channel)return false;
   if(f.region&&!c.region?.includes(f.region)&&!c.region?.includes('全国'))return false;

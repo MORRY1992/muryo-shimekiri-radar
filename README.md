@@ -32,3 +32,5 @@ Cloudflare Pages（GitHub連携）の設定:
 - `docs/QA.md`: 実測結果と未確認項目。
 
 Adsterraは未申請・配信無効です。別サイトのコードを流用しません。
+
+2026-11-04の全体改修: 締切カレンダー、検索・状態・条件の表示、詳細の3期限、ジャンル探索、期限ガイド、更新記録、FAQ、フッターを再設計。参照調査は `docs/DESIGN_REFERENCES.md`。通常の `npm run build` に内部リンク・正確なcanonical・既存GSC・全案件sitemap・出力データ保持の検証を含みます。案件件数を固定したテストは使いません。
