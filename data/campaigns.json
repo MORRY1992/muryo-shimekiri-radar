@@ -1,5 +1,51 @@
 [
   {
+    "startAt": null,
+    "startDate": "2026-11-03",
+    "endAt": null,
+    "endDate": "2026-11-09",
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "lawson-hot-drink-ticket-202611",
+    "title": "対象ホット飲料購入で新作ホット飲料の無料引換券",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "benefit": "対象のホット飲料1本購入につき、綾鷹カフェ 抹茶グリーンティー ショコララテ ホット440mlの無料引換券1枚。",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "購入必須。対象は綾鷹 ホット440ml・税込149円、または紅茶花伝 ロイヤルミルクティー ホット440ml・税込183円（ローソン標準価格）。",
+    "method": "11月3日から9日までに対象商品を購入し、レシートに印字される無料引換券を受け取る。11月10日から23日までに引換対象商品と交換。",
+    "notes": [
+      "商品購入が必要な企画で、購入不要の無料プレゼントではありません。",
+      "発券・引換期限の時刻は公式本文に明記なし。持ち帰り限定。スマホレジ対象外、一部店舗は取扱いなし。",
+      "ローソンストア100・Lミニマートは対象外。発券店舗と異なる店舗でも引換可能。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/sp/recommend/sale/detail/1533966_3682.html",
+    "channel": "店舗",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/sp/recommend/sale/detail/1533966_3682.html"
+    ],
+    "lastVerifiedAt": "2026-11-03T15:06:31+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-03T15:06:31+09:00",
+        "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "対象商品1本購入ごとに無料引換券1枚。1会計30枚まで。",
+    "purchaseDate": "2026-11-09",
+    "redemptionDate": "2026-11-23"
+  },
+  {
     "startAt": "2026-10-27T00:00:00+09:00",
     "startDate": null,
     "endAt": "2026-11-23T23:59:00+09:00",
