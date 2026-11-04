@@ -8,6 +8,52 @@
     "redemptionDeadline": null,
     "daily": false,
     "verificationStatus": "verified",
+    "id": "lawson-kitchen-bento-drink-ticket-202611",
+    "title": "まちかど厨房弁当購入で600ml飲料の無料引換券",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "benefit": "対象のまちかど厨房弁当1個購入につき、対象の600ml飲料1本の無料引換券1枚。",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "購入必須。対象弁当は海鮮かき揚げ丼・税込646円、またはよくばり海鮮かき揚げ弁当・税込797円（ローソン標準価格）。",
+    "method": "11月3日から9日までに対象弁当を購入し、レシートに印字される無料引換券を受け取る。11月3日から16日までに対象飲料と交換。",
+    "notes": [
+      "対象飲料は緑茶、ジャスミン茶、ルイボスティー、アールグレイ無糖、麦茶、ほうじ茶、烏龍茶の各600ml。沖縄はローソンセレクトさんぴん茶600mlも対象。天然水600mlは対象外。",
+      "発券・引換期限の時刻は公式本文に明記なし。持ち帰り限定。スマホレジ対象外、一部店舗は取扱いなし。",
+      "ナチュラルローソン・ローソンストア100・Lミニマートは対象外。発券店舗と異なる店舗でも引換可能。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html",
+    "channel": "店舗",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html"
+    ],
+    "lastVerifiedAt": "2026-11-05T08:03:00+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-05T08:03:00+09:00",
+        "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を確認して初回登録。",
+        "kind": "created"
+      }
+    ],
+    "eligibility": "対象弁当1個購入ごとに無料引換券1枚。1会計30枚まで。",
+    "purchaseDate": "2026-11-09",
+    "redemptionDate": "2026-11-16"
+  },
+  {
+    "startAt": null,
+    "startDate": "2026-11-03",
+    "endAt": null,
+    "endDate": "2026-11-09",
+    "purchaseDeadline": null,
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
     "id": "lawson-hot-drink-ticket-202611",
     "title": "対象ホット飲料購入で新作ホット飲料の無料引換券",
     "organizer": "ローソン",
@@ -53,7 +99,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": "2026-11-30T23:59:00+09:00",
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "lawson-app-coffee-202610",
     "title": "ローソンアプリ新規ポイントカード連携でコーヒーS無料券",
     "organizer": "ローソン",
@@ -84,11 +130,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -98,7 +150,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "house-spice-disney-202611",
     "title": "ハウス食品グループ スパイス体験・パークチケットプレゼント",
     "organizer": "ハウス食品グループ本社",
@@ -129,11 +181,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "1人1回。日本国内居住者。A・B賞は2027年1月11日の指定イベントに参加できる方。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -143,7 +201,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "choices-sample-202610",
     "title": "ChoiceS 犬猫フードの無料サンプル",
     "organizer": "アース・ペット",
@@ -174,11 +232,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "日本国内居住者、1住所1回。配布予定数に達すると早期終了の場合あり。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -238,7 +302,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "jema-oven-quiz-202610",
     "title": "オーブンレンジの日 クイズプレゼント",
     "organizer": "日本電機工業会（JEMA）",
@@ -271,11 +335,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "1人1回。複数回応募は無効。フォームは国内住所を入力する形式。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -285,7 +355,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": "2026-12-15T23:59:00+09:00",
     "daily": true,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "ponta-black-everyday-202611",
     "title": "Ponta BLACK EVERYDAY 無料ガチャ",
     "organizer": "ロイヤリティ マーケティング（Ponta）",
@@ -317,11 +387,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "各ガチャは1日3回または4回。挑戦権は毎日0時リセット。Ponta会員・アプリ等が必要。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -331,7 +407,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "yuskin-teare-202611",
     "title": "ユースキン 手荒れ救おうプロジェクト 第3弾",
     "organizer": "ユースキン製薬",
@@ -363,11 +439,17 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報・応募要項を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-04T23:04:48.743Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "日本国内在住。各回1人1回。未成年者は親権者同意が必要。",
     "purchaseDate": null,
-    "redemptionDate": null
+    "redemptionDate": null,
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
