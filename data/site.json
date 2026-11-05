@@ -1,1 +1,33 @@
-{"name":"今日の無料・締切レーダー","subtitle":"無料キャンペーン・懸賞・先着特典・応募期限の総合案内","url":"https://muryo-shimekiri-radar.pages.dev","urlVerified":true,"repository":"https://github.com/MORRY1992/muryo-shimekiri-radar","operator":"MORRY1992","ads":{"provider":"Adsterra","enabled":false,"status":"approved","siteSpecificCode":null},"analytics":{"enabled":false},"verificationTtlHours":48,"launchDate":"2026-11-02"}
+{
+  "name": "今日の無料・締切レーダー",
+  "subtitle": "無料キャンペーン・懸賞・先着特典・応募期限の総合案内",
+  "url": "https://muryo-shimekiri-radar.pages.dev",
+  "urlVerified": true,
+  "repository": "https://github.com/MORRY1992/muryo-shimekiri-radar",
+  "operator": "MORRY1992",
+  "ads": {
+    "provider": "Adsterra",
+    "enabled": false,
+    "status": "approved",
+    "siteSpecificCode": null,
+    "publisherId": 3526726,
+    "siteId": 6169269,
+    "adUnitId": 32050649,
+    "format": "Social Bar",
+    "codeRetrieved": true,
+    "approvalVerifiedAt": "2026-11-05T05:59:42.910534+00:00",
+    "acquiredCode": "<script data-cfasync=\"false\" src=\"https://bauval.org/14/cbbdf4a52930238b4b112ecaea3ddd26\"></script>",
+    "activationBlockers": [
+      "配信カテゴリ設定・広告構成と閉じる動作の確認",
+      "必要ドメインのみのCSP設計とスマートフォン操作検証"
+    ],
+    "deliveryVerifiedAt": null,
+    "trackingVerifiedAt": null,
+    "evidence": "Adsterra Publisher 3526726 Websites / site 6169269 / SocialBar_1 32050649: Approved, Active; Get code画面で専用コードを取得。Activeはサイトでの配信確認ではない。"
+  },
+  "analytics": {
+    "enabled": false
+  },
+  "verificationTtlHours": 48,
+  "launchDate": "2026-11-02"
+}
