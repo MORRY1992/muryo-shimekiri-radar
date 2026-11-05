@@ -32,13 +32,18 @@
     "sourceUrls": [
       "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html"
     ],
-    "lastVerifiedAt": "2026-11-05T08:03:00+09:00",
+    "lastVerifiedAt": "2026-11-06T08:01:12+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
         "at": "2026-11-05T08:03:00+09:00",
         "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-06T08:01:12+09:00",
+        "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を再確認。条件変更なし。",
+        "kind": "verified"
       }
     ],
     "eligibility": "対象弁当1個購入ごとに無料引換券1枚。1会計30枚まで。",
@@ -78,13 +83,18 @@
     "sourceUrls": [
       "https://www.lawson.co.jp/sp/recommend/sale/detail/1533966_3682.html"
     ],
-    "lastVerifiedAt": "2026-11-03T15:06:31+09:00",
+    "lastVerifiedAt": "2026-11-06T08:01:12+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
         "at": "2026-11-03T15:06:31+09:00",
         "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を確認して初回登録。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-06T08:01:12+09:00",
+        "note": "公式セール情報で購入対象、発券期間、引換対象と引換期間を再確認。条件変更なし。",
+        "kind": "verified"
       }
     ],
     "eligibility": "対象商品1本購入ごとに無料引換券1枚。1会計30枚まで。",
