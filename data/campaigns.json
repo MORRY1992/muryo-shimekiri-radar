@@ -7,7 +7,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "lawson-kitchen-bento-drink-ticket-202611",
     "title": "まちかど厨房弁当購入で600ml飲料の無料引換券",
     "organizer": "ローソン",
@@ -32,7 +32,7 @@
     "sourceUrls": [
       "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html"
     ],
-    "lastVerifiedAt": "2026-11-08T08:06:00+09:00",
+    "lastVerifiedAt": "2026-11-09T08:10:00+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
@@ -49,11 +49,22 @@
         "at": "2026-11-08T08:06:00+09:00",
         "note": "公式セール情報で購入対象、11月9日までの発券期間、11月16日までの引換期間を再確認。条件変更なし。",
         "kind": "verified"
+      },
+      {
+        "at": "2026-11-09T08:10:00+09:00",
+        "note": "公式セール情報で購入対象、11月9日までの発券期間、11月16日までの引換期間を再確認。条件変更なし。締切時刻は公表されていないため当日表示は再確認待ちを維持。",
+        "kind": "verified"
+      },
+      {
+        "at": "2026-11-08T23:13:29.282Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "対象弁当1個購入ごとに無料引換券1枚。1会計30枚まで。",
     "purchaseDate": "2026-11-09",
-    "redemptionDate": "2026-11-16"
+    "redemptionDate": "2026-11-16",
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": null,
@@ -63,7 +74,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "id": "lawson-hot-drink-ticket-202611",
     "title": "対象ホット飲料購入で新作ホット飲料の無料引換券",
     "organizer": "ローソン",
@@ -88,7 +99,7 @@
     "sourceUrls": [
       "https://www.lawson.co.jp/sp/recommend/sale/detail/1533966_3682.html"
     ],
-    "lastVerifiedAt": "2026-11-08T08:06:00+09:00",
+    "lastVerifiedAt": "2026-11-09T08:10:00+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
@@ -105,11 +116,22 @@
         "at": "2026-11-08T08:06:00+09:00",
         "note": "公式セール情報で購入対象、11月9日までの発券期間、11月10日から23日までの引換期間を再確認。条件変更なし。",
         "kind": "verified"
+      },
+      {
+        "at": "2026-11-09T08:10:00+09:00",
+        "note": "公式セール情報で購入対象、11月9日までの発券期間、11月10日から23日までの引換期間を再確認。条件変更なし。締切時刻は公表されていないため当日表示は再確認待ちを維持。",
+        "kind": "verified"
+      },
+      {
+        "at": "2026-11-08T23:13:29.282Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
     ],
     "eligibility": "対象商品1本購入ごとに無料引換券1枚。1会計30枚まで。",
     "purchaseDate": "2026-11-09",
-    "redemptionDate": "2026-11-23"
+    "redemptionDate": "2026-11-23",
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "startAt": "2026-10-27T00:00:00+09:00",
