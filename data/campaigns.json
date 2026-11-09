@@ -1,13 +1,13 @@
 [
   {
-    "startAt": null,
+    "startAt": "2026-11-03T00:00:00+09:00",
     "startDate": "2026-11-03",
-    "endAt": null,
+    "endAt": "2026-11-09T23:59:00+09:00",
     "endDate": "2026-11-09",
-    "purchaseDeadline": null,
-    "redemptionDeadline": null,
+    "purchaseDeadline": "2026-11-09T23:59:00+09:00",
+    "redemptionDeadline": "2026-11-16T23:59:00+09:00",
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "verified",
     "id": "lawson-kitchen-bento-drink-ticket-202611",
     "title": "まちかど厨房弁当購入で600ml飲料の無料引換券",
     "organizer": "ローソン",
@@ -24,15 +24,16 @@
     "method": "11月3日から9日までに対象弁当を購入し、レシートに印字される無料引換券を受け取る。11月3日から16日までに対象飲料と交換。",
     "notes": [
       "対象飲料は緑茶、ジャスミン茶、ルイボスティー、アールグレイ無糖、麦茶、ほうじ茶、烏龍茶の各600ml。沖縄はローソンセレクトさんぴん茶600mlも対象。天然水600mlは対象外。",
-      "発券・引換期限の時刻は公式本文に明記なし。持ち帰り限定。スマホレジ対象外、一部店舗は取扱いなし。",
+      "ローソン公式のまちかど厨房記事では、発券は11月9日23:59まで、引換は11月16日23:59まで。持ち帰り限定。スマホレジ対象外、一部店舗は取扱いなし。",
       "ナチュラルローソン・ローソンストア100・Lミニマートは対象外。発券店舗と異なる店舗でも引換可能。"
     ],
     "officialUrl": "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html",
     "channel": "店舗",
     "sourceUrls": [
-      "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html"
+      "https://www.lawson.co.jp/recommend/sale/detail/1533968_3677.html",
+      "https://www.lawson.co.jp/lab/machikado/art/1533670_7768.html"
     ],
-    "lastVerifiedAt": "2026-11-09T08:10:00+09:00",
+    "lastVerifiedAt": "2026-11-09T15:07:07+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
@@ -59,12 +60,16 @@
         "at": "2026-11-08T23:13:29.282Z",
         "kind": "review-required",
         "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+      },
+      {
+        "at": "2026-11-09T15:07:07+09:00",
+        "kind": "changed",
+        "note": "公式のまちかど厨房記事で同一企画の開始時刻、発券最終11月9日23:59、引換最終11月16日23:59を確認。日付のみの掲載を時刻付きへ訂正。"
       }
     ],
     "eligibility": "対象弁当1個購入ごとに無料引換券1枚。1会計30枚まで。",
     "purchaseDate": "2026-11-09",
-    "redemptionDate": "2026-11-16",
-    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+    "redemptionDate": "2026-11-16"
   },
   {
     "startAt": null,
