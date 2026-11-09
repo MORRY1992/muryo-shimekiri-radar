@@ -1,5 +1,52 @@
 [
   {
+    "id": "familymart-receipt-coupon-202611-week1",
+    "title": "ファミリーマートのレシート引換券 第1弾",
+    "organizer": "ファミリーマート",
+    "category": "コンビニ・スーパー",
+    "benefit": "対象商品1点の購入につき、対象商品1点の引換券がレシートに1枚付きます。",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "発券には対象商品の購入代金が必要です。対象商品は公式ページまたは店頭表示で確認してください。",
+    "method": "11月10日〜16日に対象商品を購入。引換は11月17日7:00〜23日。引換対象品とレシートの引換券をレジへ持参します。",
+    "notes": [
+      "発券最終時刻と引換終了時刻は公式本文に時刻の記載がありません。",
+      "対象品は週ごとに変わります。持ち帰りと店内飲食で税率が異なる対象品では、店内飲食時に差額が生じる場合があります。"
+    ],
+    "officialUrl": "https://www.family.co.jp/campaign/spot/2611_1buy145th_cp.html",
+    "channel": "店舗",
+    "sourceUrls": [
+      "https://www.family.co.jp/campaign/spot/2611_1buy145th_cp.html",
+      "https://www.family.co.jp/company/news_releases/2026/20261109_01"
+    ],
+    "startAt": null,
+    "startDate": "2026-11-10",
+    "endAt": null,
+    "endDate": "2026-11-16",
+    "purchaseDeadline": null,
+    "purchaseDate": "2026-11-16",
+    "redemptionStartAt": "2026-11-17T07:00:00+09:00",
+    "redemptionStartDate": "2026-11-17",
+    "redemptionDeadline": null,
+    "redemptionDate": "2026-11-23",
+    "daily": false,
+    "verificationStatus": "verified",
+    "lastVerifiedAt": "2026-11-10T07:59:20+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-10T07:59:20+09:00",
+        "kind": "created",
+        "note": "公式キャンペーン本文で第1弾の購入条件・発券期間と引換期間を確認。"
+      }
+    ]
+  },
+  {
     "startAt": "2026-11-03T00:00:00+09:00",
     "startDate": "2026-11-03",
     "endAt": "2026-11-09T23:59:00+09:00",
@@ -7,7 +54,7 @@
     "purchaseDeadline": "2026-11-09T23:59:00+09:00",
     "redemptionDeadline": "2026-11-16T23:59:00+09:00",
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "ended",
     "id": "lawson-kitchen-bento-drink-ticket-202611",
     "title": "まちかど厨房弁当購入で600ml飲料の無料引換券",
     "organizer": "ローソン",
@@ -65,6 +112,11 @@
         "at": "2026-11-09T15:07:07+09:00",
         "kind": "changed",
         "note": "公式のまちかど厨房記事で同一企画の開始時刻、発券最終11月9日23:59、引換最終11月16日23:59を確認。日付のみの掲載を時刻付きへ訂正。"
+      },
+      {
+        "at": "2026-11-09T22:59:21.815Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "対象弁当1個購入ごとに無料引換券1枚。1会計30枚まで。",
@@ -79,7 +131,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "ended",
     "id": "lawson-hot-drink-ticket-202611",
     "title": "対象ホット飲料購入で新作ホット飲料の無料引換券",
     "organizer": "ローソン",
@@ -131,6 +183,11 @@
         "at": "2026-11-08T23:13:29.282Z",
         "kind": "review-required",
         "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+      },
+      {
+        "at": "2026-11-09T22:59:21.815Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "対象商品1本購入ごとに無料引換券1枚。1会計30枚まで。",
