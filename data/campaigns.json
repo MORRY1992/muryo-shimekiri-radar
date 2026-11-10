@@ -1,5 +1,53 @@
 [
   {
+    "id": "lawson-pet-drink-x-202611",
+    "title": "ローソンの600ml飲料 無料引換券X抽選",
+    "organizer": "ローソン",
+    "category": "食品・飲料",
+    "benefit": "対象の600ml飲料1本の持ち帰り用引換券。1日1万人、5日間で計5万人の抽選です。",
+    "awardType": "lottery",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": true,
+    "region": [
+      "全国"
+    ],
+    "costs": "購入不要。Xアカウントと通信環境が必要で、通信料は応募者負担です。",
+    "method": "ローソン公式Xをフォローし、その日の対象投稿をリポスト。1日1回応募できます。当選者はXのチャットで届く引換券を対象商品と一緒にレジで提示します。",
+    "notes": [
+      "11月11日8:00は開始予定。受付は公式Xの対象投稿後です。",
+      "天然水は対象外。さんぴん茶は沖縄のみ。ローソンストア100とLミニマートは対象外です。",
+      "持ち帰り限定で、1会計1枚。公開Xアカウントやチャット受信など、公式の応募条件を確認してください。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/lab/tsuushin/art/1533795_4659.html",
+    "channel": "X",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/lab/tsuushin/art/1533795_4659.html",
+      "https://www.lawson.co.jp/rules/static/xiw/"
+    ],
+    "startAt": "2026-11-11T08:00:00+09:00",
+    "startDate": null,
+    "endAt": "2026-11-15T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "purchaseDate": null,
+    "redemptionStartAt": "2026-11-11T08:00:00+09:00",
+    "redemptionStartDate": null,
+    "redemptionDeadline": "2026-11-18T23:59:00+09:00",
+    "redemptionDate": null,
+    "daily": true,
+    "verificationStatus": "verified",
+    "lastVerifiedAt": "2026-11-10T15:11:57+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-10T15:11:57+09:00",
+        "kind": "created",
+        "note": "公式告知と規約で、応募条件と応募・引換期間を確認。対象投稿後に受付開始する予定として記録。"
+      }
+    ]
+  },
+  {
     "id": "familymart-receipt-coupon-202611-week1",
     "title": "ファミリーマートのレシート引換券 第1弾",
     "organizer": "ファミリーマート",
