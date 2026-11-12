@@ -36,7 +36,7 @@
     "redemptionDeadline": "2026-11-18T23:59:00+09:00",
     "redemptionDate": null,
     "daily": true,
-    "verificationStatus": "verified",
+    "verificationStatus": "pending",
     "lastVerifiedAt": "2026-11-10T15:11:57+09:00",
     "collectionMode": "manual-review",
     "history": [
@@ -44,8 +44,14 @@
         "at": "2026-11-10T15:11:57+09:00",
         "kind": "created",
         "note": "公式告知と規約で、応募条件と応募・引換期間を確認。対象投稿後に受付開始する予定として記録。"
+      },
+      {
+        "at": "2026-11-12T23:16:18.800Z",
+        "kind": "review-required",
+        "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
       }
-    ]
+    ],
+    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
   },
   {
     "id": "familymart-receipt-coupon-202611-week1",
