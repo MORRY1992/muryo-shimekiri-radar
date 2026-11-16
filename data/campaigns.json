@@ -94,7 +94,7 @@
     "redemptionDeadline": null,
     "redemptionDate": "2026-11-23",
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "ended",
     "lastVerifiedAt": "2026-11-10T07:59:20+09:00",
     "collectionMode": "manual-review",
     "history": [
@@ -107,6 +107,11 @@
         "at": "2026-11-11T23:09:04Z",
         "kind": "review-required",
         "note": "第1弾の発券11/10〜16・引換11/17 07時〜23日、商品購入・レシート券・併用制限・地域/店舗差を公式本文で再読。利用規定の適用範囲が未確認のためpending、lastVerifiedAtは維持。外部問い合わせ/新規リンク/無人取得なし。"
+      },
+      {
+        "at": "2026-11-16T23:05:44.391Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "reviewReason": "前回確認から48時間経過。公式利用規定の営利目的利用に関する記載と本媒体への適用範囲を運用責任者が確認するまで再掲載を保留。"
