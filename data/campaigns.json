@@ -319,7 +319,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": null,
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "ended",
     "id": "house-spice-disney-202611",
     "title": "ハウス食品グループ スパイス体験・パークチケットプレゼント",
     "organizer": "ハウス食品グループ本社",
@@ -355,6 +355,11 @@
         "at": "2026-11-04T23:04:48.743Z",
         "kind": "review-required",
         "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+      },
+      {
+        "at": "2026-11-16T06:12:04.625Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "1人1回。日本国内居住者。A・B賞は2027年1月11日の指定イベントに参加できる方。",
