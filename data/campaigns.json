@@ -736,7 +736,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": "2026-11-20T09:59:00+09:00",
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "ended",
     "id": "kewpie-mission-tartar-202610",
     "title": "Hi! kewpie タルタルソースの日ミッション",
     "organizer": "キユーピー",
@@ -767,6 +767,11 @@
         "at": "2026-11-02T15:40:56+09:00",
         "note": "公式公開情報を確認。重要条件が未確認のため保留。",
         "kind": "created"
+      },
+      {
+        "at": "2026-11-20T06:03:18.658Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "1人1回。賞品受取りは日本国内居住者。",
