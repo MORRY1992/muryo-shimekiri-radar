@@ -273,7 +273,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": "2026-11-30T23:59:00+09:00",
     "daily": false,
-    "verificationStatus": "pending",
+    "verificationStatus": "verified",
     "id": "lawson-app-coffee-202610",
     "title": "ローソンアプリ新規ポイントカード連携でコーヒーS無料券",
     "organizer": "ローソン",
@@ -290,14 +290,15 @@
     "method": "ローソンIDでログインしたアプリ内から、Pontaカードまたはdポイントカードを初めて連携。MYBOXに届く券を店舗で提示。",
     "notes": [
       "Webサイトからの連携は対象外。",
-      "持ち帰り限定。一部店舗は取扱いなし。スマホレジ不可、同一商品に他券との併用不可。"
+      "持ち帰り限定。一部店舗は取扱いなし。スマホレジ不可、同一商品に他券との併用不可。",
+      "ローソンストア100・ナチュラルローソンは対象外。無料券の送付・発券・利用は1人1回限り。"
     ],
     "officialUrl": "https://www.lawson.co.jp/lab/app/art/1533678_8411.html",
     "channel": "アプリ",
     "sourceUrls": [
       "https://www.lawson.co.jp/lab/app/art/1533678_8411.html"
     ],
-    "lastVerifiedAt": "2026-11-02T15:40:56+09:00",
+    "lastVerifiedAt": "2026-11-22T14:59:28+09:00",
     "collectionMode": "manual-review",
     "history": [
       {
@@ -309,12 +310,16 @@
         "at": "2026-11-04T23:04:48.743Z",
         "kind": "review-required",
         "note": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+      },
+      {
+        "at": "2026-11-22T14:59:28+09:00",
+        "kind": "verified",
+        "note": "公式公開本文で新規カード連携/過去連携除外/アプリ内手続、連携11月23日23:59と無料券利用11月30日23:59、対象外店舗を分けて再確認。個人の適格・券受領/使用は未検証。"
       }
     ],
     "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
     "purchaseDate": null,
-    "redemptionDate": null,
-    "reviewReason": "確認期限の経過、または締切時刻未公表のため再確認待ち"
+    "redemptionDate": null
   },
   {
     "startAt": null,
