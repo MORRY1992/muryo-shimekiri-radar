@@ -273,7 +273,7 @@
     "purchaseDeadline": null,
     "redemptionDeadline": "2026-11-30T23:59:00+09:00",
     "daily": false,
-    "verificationStatus": "verified",
+    "verificationStatus": "ended",
     "id": "lawson-app-coffee-202610",
     "title": "ローソンアプリ新規ポイントカード連携でコーヒーS無料券",
     "organizer": "ローソン",
@@ -315,6 +315,11 @@
         "at": "2026-11-22T14:59:28+09:00",
         "kind": "verified",
         "note": "公式公開本文で新規カード連携/過去連携除外/アプリ内手続、連携11月23日23:59と無料券利用11月30日23:59、対象外店舗を分けて再確認。個人の適格・券受領/使用は未検証。"
+      },
+      {
+        "at": "2026-11-23T23:14:53.589Z",
+        "kind": "expired",
+        "note": "記録済みの応募期限を経過。終了履歴へ移動。"
       }
     ],
     "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
