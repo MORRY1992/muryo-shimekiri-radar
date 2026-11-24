@@ -832,5 +832,52 @@
     "eligibility": "応募期間中は1日1回。公開Xアカウント・DM受信等の条件あり。",
     "purchaseDate": null,
     "redemptionDate": null
+  },
+  {
+    "startAt": "2026-11-24T00:00:00+09:00",
+    "startDate": null,
+    "endAt": "2026-12-28T23:59:00+09:00",
+    "endDate": null,
+    "purchaseDeadline": null,
+    "redemptionDeadline": "2026-12-31T23:59:00+09:00",
+    "daily": false,
+    "verificationStatus": "verified",
+    "id": "lawson-app-coffee-20261124",
+    "title": "ローソンアプリ新規ポイントカード連携でコーヒーS無料券",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "benefit": "マチカフェのホットまたはアイスコーヒーS 1杯の無料券。",
+    "awardType": "all",
+    "purchaseRequired": false,
+    "registrationRequired": true,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "costs": "商品購入不要。アプリ通信費・来店費は自己負担。",
+    "method": "ローソンIDでログインしたアプリ内から、Pontaカードまたはdポイントカードを初めて連携。MYBOXに届く券を店舗で提示。",
+    "notes": [
+      "Webサイトからの連携は対象外。過去に連携済みのローソンID・ポイントカードも対象外。",
+      "持ち帰り限定。一部店舗は取扱いなし。スマホレジ不可、同一商品に他券との併用不可。",
+      "ローソンストア100・Lミニマート・ナチュラルローソンは対象外。送付・発券・利用は1人1回。",
+      "11/23終了の旧企画とは別の募集期間。以前の参加者が再度対象になるとは限らない。"
+    ],
+    "officialUrl": "https://www.lawson.co.jp/lab/app/art/1534177_8411.html",
+    "channel": "アプリ",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/lab/app/art/1534177_8411.html"
+    ],
+    "lastVerifiedAt": "2026-11-24T19:07:00+09:00",
+    "collectionMode": "manual-review",
+    "history": [
+      {
+        "at": "2026-11-24T19:07:00+09:00",
+        "kind": "created",
+        "note": "11/24付の新しい公式本文で連携期限12/28・無料券利用12/31と対象外条件を確認。旧終了企画と別ID。券受領・利用成功は未検証。"
+      }
+    ],
+    "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
+    "purchaseDate": null,
+    "redemptionDate": null
   }
 ]
