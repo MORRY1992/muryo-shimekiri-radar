@@ -879,5 +879,101 @@
     "eligibility": "過去に連携歴のあるローソンID・ポイントカードは対象外。ポイントカード1つにつき1回。",
     "purchaseDate": null,
     "redemptionDate": null
+  },
+  {
+    "id": "lawson-suntory-receipt-20261124",
+    "title": "ローソン対象飲料購入で、翌週から使える飲料無料券",
+    "benefit": "特水600mlまたはGREEN DA・KA・RA600mlを購入すると、きりっと果実ピンクグレープフルーツ＆マスカット600mlの持ち帰り無料券。",
+    "costs": "対象飲料の購入が必要。ローソン標準税込価格は特水162円、GREEN DA・KA・RA163円。来店費別。",
+    "redemptionDate": "2026-12-14",
+    "officialUrl": "https://www.lawson.co.jp/recommend/sale/detail/1534543_3677.html",
+    "startAt": null,
+    "startDate": "2026-11-24",
+    "endAt": null,
+    "endDate": "2026-11-30",
+    "purchaseDeadline": null,
+    "purchaseDate": "2026-11-30",
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "channel": "店舗",
+    "collectionMode": "manual-review",
+    "lastVerifiedAt": "2026-11-26T08:15:21+09:00",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/recommend/sale/detail/1534543_3677.html"
+    ],
+    "method": "11/24〜11/30に対象商品を購入しレシート券を受け取る。12/1から引換最終日までに対象品1点と店舗で引換。",
+    "eligibility": "対象商品を店舗で購入した方。購入なしの無料配布ではありません。",
+    "notes": [
+      "発券・購入期間は11/24〜11/30、引換は12/1から。締切時刻は公式本文で確認できず、日付だけを記録。",
+      "ローソンストア100・Lミニマート除く。一部取扱いのない店舗あり。",
+      "持ち帰り限定。イートイン利用時は税率差額が必要。スマホレジ対象外。",
+      "対象商品1点ごとに券1枚、1会計30枚まで。別店舗でも引換可能。発行店コード・発行日時のない券は無効。",
+      "購入・券発行・引換の実操作は行っていない。店頭条件は変更の場合あり。"
+    ],
+    "history": [
+      {
+        "at": "2026-11-26T08:15:21+09:00",
+        "kind": "created",
+        "note": "公式本文で対象商品・購入必須・発券/引換期間と除外条件を限定手動確認。時刻不明を補完しない。"
+      }
+    ]
+  },
+  {
+    "id": "lawson-ghana-receipt-20261124",
+    "title": "ローソン対象ガーナ購入で、翌週から使えるチョコ無料券",
+    "benefit": "ガーナブラック50gまたはガーナホワイト45gを購入すると、マカダミアポップジョイ・カラメリゼ34gまたはアーモンドポップジョイ43gの対象品1個の持ち帰り無料券。",
+    "costs": "対象ガーナの購入が必要。ローソン標準税込価格は各225円。来店費別。",
+    "redemptionDate": "2026-12-07",
+    "officialUrl": "https://www.lawson.co.jp/recommend/sale/detail/1534545_3677.html",
+    "startAt": null,
+    "startDate": "2026-11-24",
+    "endAt": null,
+    "endDate": "2026-11-30",
+    "purchaseDeadline": null,
+    "purchaseDate": "2026-11-30",
+    "redemptionDeadline": null,
+    "daily": false,
+    "verificationStatus": "verified",
+    "organizer": "ローソン",
+    "category": "コンビニ・スーパー",
+    "awardType": "all",
+    "purchaseRequired": true,
+    "registrationRequired": false,
+    "snsRequired": false,
+    "region": [
+      "全国"
+    ],
+    "channel": "店舗",
+    "collectionMode": "manual-review",
+    "lastVerifiedAt": "2026-11-26T08:15:21+09:00",
+    "sourceUrls": [
+      "https://www.lawson.co.jp/recommend/sale/detail/1534545_3677.html"
+    ],
+    "method": "11/24〜11/30に対象商品を購入しレシート券を受け取る。12/1から引換最終日までに対象品1点と店舗で引換。",
+    "eligibility": "対象商品を店舗で購入した方。購入なしの無料配布ではありません。",
+    "notes": [
+      "発券・購入期間は11/24〜11/30、引換は12/1から。締切時刻は公式本文で確認できず、日付だけを記録。",
+      "ローソンストア100・Lミニマート除く。一部取扱いのない店舗あり。",
+      "持ち帰り限定。イートイン利用時は税率差額が必要。スマホレジ対象外。",
+      "対象商品1点ごとに券1枚、1会計30枚まで。別店舗でも引換可能。発行店コード・発行日時のない券は無効。",
+      "購入・券発行・引換の実操作は行っていない。店頭条件は変更の場合あり。"
+    ],
+    "history": [
+      {
+        "at": "2026-11-26T08:15:21+09:00",
+        "kind": "created",
+        "note": "公式本文で対象商品・購入必須・発券/引換期間と除外条件を限定手動確認。時刻不明を補完しない。"
+      }
+    ]
   }
 ]
